@@ -6,6 +6,9 @@ Hospital-MediCare is a modern healthcare web application that allows patients to
 
 ## 🚀 Features
 
+<img width="1887" height="762" alt="Screenshot 2026-07-03 234112" src="https://github.com/user-attachments/assets/b2218d1b-64f5-418a-8c6f-ad1a24cc5061" />
+<img width="1877" height="782" alt="webScreen2" src="https://github.com/user-attachments/assets/3362a0a4-f689-42a6-a3a5-6b2217ae2787" />
+<img width="1890" height="815" alt="Screenshot 2026-07-03 234324" src="https://github.com/user-attachments/assets/3da81fb2-4d6d-465d-9d75-e5ce3aec0ce5" />
 
 
 ### 🏠 Home Page
