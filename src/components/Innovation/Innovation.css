@@ -1,0 +1,66 @@
+.innovation {
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.innovation-image img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.innovation-tag {
+  color: #1976ff;
+  font-weight: 600;
+}
+
+.innovation-content h2 {
+  font-size: 3rem;
+  margin: 15px 0;
+  color: #222;
+}
+
+.innovation-content p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.innovation-list {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.feature {
+  background: #f8fbff;
+  padding: 15px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.innovation-btn {
+  border: none;
+  background: #1976ff;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+  .innovation {
+    grid-template-columns: 1fr;
+  }
+
+  .innovation-content {
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,106 @@
+.hero {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-tag {
+  color: #1976ff;
+  font-weight: 600;
+}
+
+.hero-left h1 {
+  font-size: 4rem;
+  margin: 20px 0;
+  color: #222;
+}
+
+.hero-left p {
+  color: #666;
+  line-height: 1.8;
+  max-width: 500px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.primary-btn {
+  background: #1976ff;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 14px 28px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.hero-stats h3 {
+  color: #1976ff;
+  font-size: 2rem;
+}
+
+.hero-right {
+  position: relative;
+}
+
+.hero-right img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.floating-card {
+  position: absolute;
+  bottom: 30px;
+  left: -20px;
+  background: white;
+  padding: 15px 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.1);
+}
+
+@media (max-width: 768px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-left h1 {
+    font-size: 3rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-stats {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .floating-card {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
